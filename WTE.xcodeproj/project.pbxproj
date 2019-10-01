@@ -14,6 +14,8 @@
 		98531DBA2338174200D3605D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98531DB82338174200D3605D /* LaunchScreen.storyboard */; };
 		98531DC52338174200D3605D /* WTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98531DC42338174200D3605D /* WTETests.swift */; };
 		98531DD02338174200D3605D /* WTEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98531DCF2338174200D3605D /* WTEUITests.swift */; };
+		98531DDE233FE19E00D3605D /* category1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98531DDD233FE19E00D3605D /* category1ViewController.swift */; };
+		98531DE223405ECA00D3605D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98531DE123405ECA00D3605D /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		98531DCB2338174200D3605D /* WTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98531DCF2338174200D3605D /* WTEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTEUITests.swift; sourceTree = "<group>"; };
 		98531DD12338174200D3605D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98531DDD233FE19E00D3605D /* category1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = category1ViewController.swift; sourceTree = "<group>"; };
+		98531DE123405ECA00D3605D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 				98531DAF2338173B00D3605D /* AppDelegate.swift */,
 				98531DB12338173B00D3605D /* ViewController.swift */,
 				98531DB32338173B00D3605D /* Main.storyboard */,
+				98531DDD233FE19E00D3605D /* category1ViewController.swift */,
 				98531DB62338174200D3605D /* Assets.xcassets */,
 				98531DB82338174200D3605D /* LaunchScreen.storyboard */,
+				98531DE123405ECA00D3605D /* secondViewController.swift */,
 				98531DBB2338174200D3605D /* Info.plist */,
 			);
 			path = WTE;
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98531DE223405ECA00D3605D /* secondViewController.swift in Sources */,
 				98531DB22338173B00D3605D /* ViewController.swift in Sources */,
 				98531DB02338173B00D3605D /* AppDelegate.swift in Sources */,
+				98531DDE233FE19E00D3605D /* category1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFFFR4HYC9;
 				INFOPLIST_FILE = WTE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csc190.WTE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFFFR4HYC9;
 				INFOPLIST_FILE = WTE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.csc190.WTE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
