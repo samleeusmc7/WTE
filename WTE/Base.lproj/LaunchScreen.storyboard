@@ -18,21 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WHAT TO EAT" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZU-yu-3XM" userLabel="WHAT TO EAT" colorLabel="IBBuiltInLabel-Green">
-                                <rect key="frame" x="100" y="152" width="201" height="529"/>
-                                <accessibility key="accessibilityConfiguration" label="WHAT TO EAT">
-                                    <accessibilityTraits key="traits" staticText="YES"/>
-                                </accessibility>
-                                <viewLayoutGuide key="safeArea" id="mOA-wm-wCO"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
-                                <color key="textColor" red="0.16268579782272222" green="0.97680455450000003" blue="0.23272097027966271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWE-77-Yla">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWE-77-Yla">
                                 <rect key="frame" x="126" y="94" width="163" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="aSy-M9-iDe"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="WTE">
                                         <attributes>
@@ -44,6 +32,14 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" text="WHAT TO EAT" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rUk-tK-MxB">
+                                <rect key="frame" x="78" y="549" width="261" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.45943921232876711" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.075104689776026134" green="1" blue="0.12145827512947538" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.14268580079078674" green="0.38948684930801392" blue="0.53669971227645874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.38018709421157837" green="0.85025674104690552" blue="0.98514550924301147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,14 +47,6 @@
                             <bool key="isElement" value="YES"/>
                         </accessibility>
                         <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="yWE-77-Yla" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="0oD-Tb-J0G"/>
-                            <constraint firstItem="EZU-yu-3XM" firstAttribute="top" secondItem="yWE-77-Yla" secondAttribute="bottom" constant="8" symbolic="YES" id="1gf-EZ-g35"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EZU-yu-3XM" secondAttribute="bottom" constant="181" id="6ba-Bm-2G2"/>
-                            <constraint firstItem="EZU-yu-3XM" firstAttribute="centerX" secondItem="yWE-77-Yla" secondAttribute="centerX" id="akS-jx-Rxp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yWE-77-Yla" secondAttribute="trailing" constant="132" id="lPI-8e-mZf"/>
-                            <constraint firstItem="yWE-77-Yla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="vbe-8W-5vo"/>
-                        </constraints>
                         <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
